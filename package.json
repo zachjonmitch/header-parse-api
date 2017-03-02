@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "request system information",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "zjmitche",
   "license": "ISC",
+  "engines": {
+    "node": "4.7.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "babel-core": "^6.23.1",
     "babel-preset-es2015": "^6.22.0",
